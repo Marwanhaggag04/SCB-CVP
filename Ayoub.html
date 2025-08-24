@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeyad Ayoub | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #222;
+    }
+    /* Navbar */
+    nav {
+      width: 100%;
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 10%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+    }
+    nav h2 {
+      color: #333;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: #6c63ff;
+    }
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 120px 10% 60px;
+      min-height: 100vh;
+    }
+    .hero-text {
+      max-width: 600px;
+    }
+    .hero-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .hero-text h1 span {
+      color: #ff9800;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #6c63ff;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #574b90;
+    }
+    /* Social icons */
+    .socials {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+    }
+    .socials a {
+      width: 40px;
+      height: 40px;
+      background: #333;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .socials a:hover {
+      background: #6c63ff;
+    }
+    /* Right Side (circle placeholder) */
+    .hero-img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background: #ff9800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    /* Responsive */
+    @media(max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+      .hero-img {
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    
+
+  <!-- Navbar -->
+  <nav>
+    <h2>Zeyad</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Education</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Experience</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hi There,<br> I'm <span>Zeyad Ayoub</span></h1>
+      <p>I Am Into AI & Web Development</p>
+      <a href="#about" class="btn">About Me</a>
+      <div class="socials">
+        <a href="#">in</a>
+        <a href="#">GH</a>
+        <a href="#">TW</a>
+        <a href="#">TG</a>
+        <a href="#">EM</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      Zeyad
+    </div>
+  </section>
+
+</body>
+</html>
+</html>
